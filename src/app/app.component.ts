@@ -10,19 +10,9 @@ export class AppComponent {
   title = 'Eratosthenes';
   prime: number;
   primes = [];
-  limit: number;
+  limit = 10;
 
-  primArray = [];
-  primTrues = [];
-
-  constructor() {
-
-    this.primArray[1] = false;
-    this.primTrues[0] = {
-      cn: 1,
-      i: 1
-    };
-  }
+  constructor() { }
 
   initPrimeArray(limit) {
 
@@ -42,10 +32,6 @@ export class AppComponent {
       for (let j = 2; j < (limit / i); j++) {
         this.primes[(i * j)] = false;
       }
-    }
-
-    for (let i = 0; i < limit; i++) {
-      if (this.primes[i]) { this.primTrues.push(i); }
     }
   }
 
