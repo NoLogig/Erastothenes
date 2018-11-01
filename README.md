@@ -3,6 +3,8 @@
 [![License](https://img.shields.io/github/license/NoLogig/Eratosthenes.svg)](https://choosealicense.com/licenses/mit/)
 [![Donate](https://img.shields.io/badge/PayPal-Donate-blue.svg)](https://www.paypal.me/NoLogig)
 
+![Sieve Eratosthenes](https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Animation_Sieb_des_Eratosthenes.gif/300px-Animation_Sieb_des_Eratosthenes.gif)
+
 ## Sample Preview: Eratosthenes Sieve
 ![Eratosthenes Sample](https://github.com/NoLogig/Eratosthenes/blob/master/src/assets/sieve-eratosthenes.png)
 
