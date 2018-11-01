@@ -3,6 +3,8 @@
 [![License](https://img.shields.io/github/license/NoLogig/Eratosthenes.svg)](https://choosealicense.com/licenses/mit/)
 [![Donate](https://img.shields.io/badge/PayPal-Donate-blue.svg)](https://www.paypal.me/NoLogig)
 
+## Sample Preview: Eratosthenes Sieve
+![Eratosthenes Sample](https://github.com/NoLogig/Eratosthenes/blob/master/src/assets/sieve-eratosthenes.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.2.
 
