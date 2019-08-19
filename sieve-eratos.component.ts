@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'nologig-sieve',
-  templateUrl: './sieve.component.html',
-  styleUrls: ['./sieve.component.scss']
+  selector: 'nlg-sieve-eratosthenes',
+  templateUrl: './sieve-eratos.component.html',
+  styleUrls: ['./sieve-eratos.component.scss']
 })
-export class SieveComponent {
+export class SieveEratothenesComponent {
 
   prime: number;
   primes = [];
@@ -13,15 +13,6 @@ export class SieveComponent {
 
   constructor() { }
 
-  initPrimeArray(limit) {
-
-    for (let i = 0; i < limit; i++) {
-      this.primes[i] = true;
-    }
-  }
-  prevDef(e?: Event) {
-    e.preventDefault();
-  }
   eratosthenes() {
 
     this.initPrimeArray(this.limit);
@@ -72,6 +63,13 @@ export class SieveComponent {
     }
   }
 
+  initPrimeArray(limit) {
+
+    for (let i = 0; i < limit; i++) {
+      this.primes[i] = true;
+    }
+  }
+  
   /** Checks if `n` is prime.
    * @param n The value to check
    * @returns Returns `true` if `n` is prime
@@ -83,6 +81,10 @@ export class SieveComponent {
       if (n % i === 0) { return false; }
     }
     return true;
+  }
+  
+  prevDef(e?: Event) {
+    e.preventDefault();
   }
 
 }
